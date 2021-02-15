@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    char operateur;
+    printf("veuillez ecrire la valeur de a : ");
+    scanf("%d",a);
+    printf("veuillez ecrire la valeur de b : ");
+    scanf("%d",b);
+    printf("veuillez donner l'oparateur : ");
+    scanf("%c",operateur);
+    switch(operateur)
+    {
+        case + : printf("a+b=%d",a+b); break;
+        case - : printf("a-b=%d",a-b); break;
+        case * : printf("ab=%d",ab); break;
+        case / : printf("a/b=%d",a/b); break;
+        default : printf("l'operation est fausse"); break;
+    }
+    return 0;
+}
